@@ -42,12 +42,42 @@
       cursor: pointer;
     }
   }
-  
+
   &__illustration {
     flex: 1;
 
     img {
       width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    margin-top: 40px;
+    flex-direction: column-reverse;
+
+    &__content {
+      width: 100%;
+      &--title,
+      &--paragraph {
+        text-align: center;
+      }
+
+      &--input, &--btn{
+        margin-bottom: 10px;
+        width: 100%;
+      }
+
+      &--input{
+        box-sizing: border-box;
+        outline: none;
+      }
+
+      &--btn{
+        font-size: 1rem;
+        margin: 0px 0px;
+      }
     }
   }
 }

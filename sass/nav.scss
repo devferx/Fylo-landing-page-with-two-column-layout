@@ -14,6 +14,7 @@
     display: flex;
     list-style: none;
     margin: 0px;
+    align-items: center;
 
     &--item{
       margin-right: 20px;
@@ -22,6 +23,20 @@
 
       &:last-child{
         margin: 0px;
+      }
+    }
+  }
+}
+
+@media screen and  (max-width: 768px) {
+  .navbar{
+    &--logo{
+      height: 20px;
+    }
+
+    &__list{
+      &--item{
+        font-size: 0.75rem;
       }
     }
   }
