@@ -29,21 +29,24 @@
     </nav>
 
     <section class="hero">
-      <img
-        class="hero--illustration"
-        src="./images/illustration-1.svg"
-        alt=""
-      />
-      <h2 class="hero--title">
-        All your files in one secure location, accessible anywhere.
-      </h2>
-      <p class="hero--paragraph">
-        Fylo stores your most important files in one secure location. Access
-        them wherever you need, share and collaborate with friends, family, and
-        co-workers.
-      </p>
-      <input class="hero--input" type="text" placeholder="Enter yout email" />
-      <button class="hero--btn">Get Started</button>
+      <div class="hero__content">
+        <h2 class="hero__content--title">
+          All your files in one secure location, accessible anywhere.
+        </h2>
+        <p class="hero__content--paragraph">
+          Fylo stores your most important files in one secure location. Access
+          them wherever you need, share and collaborate with friends, family, and
+          co-workers.
+        </p>
+        <input class="hero__content--input" type="text" placeholder="Enter your email..." />
+        <button class="hero__content--btn">Get Started</button>
+      </div>
+      <div class="hero__illustration">
+        <img
+          src="./images/illustration-1.svg"
+          alt=""
+        />
+      </div>
     </section>
 
     <section class="main-section">
@@ -51,6 +54,7 @@
         class="main-section--illustration"
         src="./images/illustration-2.svg"
         alt="productive illustration"
+        width="100%"
       />
       <h3 class="main-section--illustration">
         Stay productive, wherever you are

@@ -30,9 +30,57 @@ body {
 }
 .navbar__list--item {
   margin-right: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 .navbar__list--item:last-child {
   margin: 0px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.hero__content {
+  width: 50%;
+}
+.hero__content--title, .hero__content--paragraph {
+  color: var(--veryDarkBlue);
+}
+.hero__content--title {
+  font-family: "";
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+}
+.hero__content--input {
+  border: 1px solid var(--veryDarkBlue);
+  border-radius: 2px;
+  width: 210px;
+  height: 32px;
+  padding: 1px 5px;
+  font-family: "Open Sans", sans-serif;
+}
+.hero__content--btn {
+  outline: none;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  height: 36px;
+  width: 150px;
+  background-color: var(--brightBlue);
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.42);
+  margin-left: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.hero__illustration {
+  flex: 1;
+}
+.hero__illustration img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

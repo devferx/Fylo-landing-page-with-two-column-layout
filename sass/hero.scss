@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  width: 100%;
+  box-sizing: border-box;
+
+  &__content {
+    width: 50%;
+
+    &--title,
+    &--paragraph {
+      color: var(--veryDarkBlue);
+    }
+
+    &--title {
+      font-family: "";
+      font-family: "Raleway", sans-serif;
+      font-size: 2.5rem;
+    }
+
+    &--input {
+      border: 1px solid var(--veryDarkBlue);
+      border-radius: 2px;
+      width: 210px;
+      height: 32px;
+      padding: 1px 5px;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    &--btn {
+      outline: none;
+      font-family: "Raleway", sans-serif;
+      color: white;
+      height: 36px;
+      width: 150px;
+      background-color: var(--brightBlue);
+      border: none;
+      box-shadow: 0px 0px 5px rgba($color: #000000, $alpha: 0.42);
+      margin-left: 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+  
+  &__illustration {
+    flex: 1;
+
+    img {
+      width: 100%;
+    }
+  }
+}
