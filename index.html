@@ -96,7 +96,9 @@
             collaboration machine.
           </p>
           <div class="main-section__content__testimonial-card__person-info">
-            <div class="main-section__content__testimonial-card__person-info__img-container">
+            <div
+              class="main-section__content__testimonial-card__person-info__img-container"
+            >
               <img
                 class="main-section__content__testimonial-card__person-info__img-container--img"
                 src="./images/avatar-testimonial.jpg"
@@ -123,18 +125,24 @@
     </section>
 
     <section class="early-access">
-      <h3 class="early-access--title">Get early access today</h3>
-      <p class="early-access--paragraph">
-        It only takes a minute to sign up and our free starter tier is extremely
-        generous. If you have any questions, our support team would be happy to
-        help you.
-      </p>
-      <input
-        class="early-access--input"
-        type="email"
-        placeholder="email@example.com"
-      />
-      <button class="early-access--btn">Get Started For Free</button>
+      <div class="early-access__content">
+        <h3 class="early-access__content--title">Get early access today</h3>
+        <p class="early-access__content--paragraph">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+      </div>
+      <form class="early-access__form">
+        <input
+          class="early-access__form--input"
+          type="email"
+          placeholder="email@example.com"
+        />
+        <button type="submit" class="early-access__form--btn">
+          Get Started For Free
+        </button>
+      </form>
     </section>
 
     <footer class="footer">
