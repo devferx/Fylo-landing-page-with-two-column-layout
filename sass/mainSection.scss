@@ -50,7 +50,7 @@
       width: 58%;
       background-color: white;
       padding: 10px 20px;
-      margin: 40px 0px;
+      margin: 50px 0px 70px 0px;
       box-sizing: border-box;
       box-shadow: 0px 3px 10px rgba($color: #000000, $alpha: 0.15);
       border-radius: 5px;
@@ -60,11 +60,11 @@
         font-family: 1.2rem;
         line-height: 1.5rem;
       }
-      
+
       &__person-info {
         display: flex;
         align-items: center;
-        
+
         &__img-container {
           margin-right: 20px;
           &--img {
@@ -72,17 +72,68 @@
             border-radius: 50%;
           }
         }
-        
-        &__information{
-          &--name{
+
+        &__information {
+          &--name {
             font-family: "Raleway", sans-serif;
             font-weight: 700;
             color: var(--veryDarkBlue);
             margin-bottom: 0px;
           }
 
-          &--role{
+          &--role {
             margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wave {
+    margin-top: 30px;
+    background-image: url(../images/bg-curve-mobile.svg);
+  }
+
+  .main-section {
+    flex-direction: column;
+
+    &__img-container {
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    &__content {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+
+      &--title {
+        text-align: center;
+        font-size: 1.3rem;
+      }
+
+      &--paragraph {
+        font-size: 1rem;
+      }
+
+      &__view-more {
+        align-self: center;
+      }
+
+      &__testimonial-card {
+        width: 100%;
+
+        &__person-info {
+          &__img-container {
+            margin-right: 10px;
+            &--img {
+              width: 50px;
+            }
+          }
+          &__information--role {
+            font-size: .8rem;
           }
         }
       }
