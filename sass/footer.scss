@@ -34,15 +34,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .footer__content {
-    flex-direction: column;
+  .footer{
+    padding: 50px 25px;
 
-    ul:first-child {
-      margin-top: 25px;
-    }
-
-    &__share-icons {
-      align-self: center;
+    &__content {
+      flex-direction: column;
+  
+      ul:first-child {
+        margin-top: 25px;
+      }
+  
+      &__share-icons {
+        align-self: center;
+      }
     }
   }
 }

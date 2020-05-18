@@ -39,6 +39,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    padding: 15px 25px;
+  }
   .navbar--logo {
     height: 20px;
   }
@@ -96,6 +99,7 @@ body {
   .hero {
     margin-top: 40px;
     flex-direction: column-reverse;
+    padding: 10px 25px;
   }
   .hero__content {
     width: 100%;
@@ -202,6 +206,7 @@ body {
 
   .main-section {
     flex-direction: column;
+    padding: 0px 25px;
   }
   .main-section__img-container {
     width: 100%;
@@ -288,6 +293,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .early-access {
+    padding: 50px 25px;
     flex-direction: column;
   }
   .early-access__content {
@@ -334,6 +340,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .footer {
+    padding: 50px 25px;
+  }
   .footer__content {
     flex-direction: column;
   }
